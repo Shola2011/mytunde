@@ -1,0 +1,68 @@
+footer{
+  background-color: rgb(58, 81, 95);
+}
+.the-line {
+  border-bottom: 1px solid rgb(133, 131, 131); margin-bottom: 30px;
+}
+.last-bar {
+  display: grid; grid-template-columns: 1fr 1fr 1fr; color: rgb(165, 162, 162);  margin-left: 100px; margin-right: 100px; padding-bottom: 30px;
+}
+.lbr p {
+  text-align: left; font-size: 13px; line-height: 30px; margin-top: 100px; margin-bottom: 20px; padding-right: 100px; 
+}
+.lbr-button {
+  background-color: rgb(226, 116, 116); padding: 15px 30px; width: 100px; color: white; font-weight: bold; font-size: 14px;
+}
+.lbr2 .p1d {
+  font-weight: bold; color: white; font-size: 20px; margin-top: 100px; margin-bottom: 20px;
+}
+.p2d {
+  color: white;
+}
+.lbr2 b {
+  color: white; font-weight: initial;
+}
+.lbr3 .p1 {
+  color: white; text-align: left; font-weight: bold; padding-left: 100px; padding-top: 100px; margin-bottom: 20px;
+}
+.lbr3 .p2 {
+  padding-left: 100px; text-align: left; font-size: 13px; margin-bottom: 20px;
+}
+.lbr3 input{
+  margin-left: 105px; height: 40px; width: 230px; padding-left: 20px; font-style: italic; font-family: 'Times New Roman'; 
+}
+.lbr3 input::placeholder {
+  color: rgb(178, 178, 179);
+}
+
+.ngo {
+  display: flex; justify-content: space-between; margin-left:100px; margin-right: 100px; color: white; padding-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .lbr p, .lbr2 {padding-right: 30px;}
+  .lbr3 {margin-left: 0px;}
+}
+@media (max-width: 900px) {
+  .lbr p, .lbr2 {padding-right: 40px;}
+  .lbr3 {margin-left: 0px;}
+}
+@media (max-width: 800px) {
+  .last-bar {
+    display: flex; flex-direction: column; align-items: center; margin: 0px; padding: 0%; margin: 30px; padding-bottom: 5px;
+  }
+  .lbr{flex: 1; }
+  .lbr p {padding: 0; margin-top: 50px; text-align: center;}
+  .lbr-button {margin-left: auto; margin-right: auto; margin-bottom: 0;}
+  .lbr2 {flex:1; padding: 0; margin: 0;}
+  .lbr2 .p1d {margin-top: 30px; margin-bottom: 0%;}
+  .lbr3 {flex:1; padding: 0%; margin: 0;}
+  .lbr3 .p2 {padding: 0%; margin-top: 10px; margin-bottom: 0px; text-align: center;}
+  .lbr3 input {margin-left: auto; margin-right: auto; padding: 0; width:400px;}
+  .lbr3 .p1{margin: 0; padding: 0; margin-bottom: 10px; margin-top: 30px; text-align: center;}
+}
+@media (max-width: 800px) {
+  .ngo .ngo-left {
+    font-siz: 10px;
+  }
+}
