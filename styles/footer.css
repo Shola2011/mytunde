@@ -58,11 +58,15 @@ footer{
   .lbr2 .p1d {margin-top: 30px; margin-bottom: 0%;}
   .lbr3 {flex:1; padding: 0%; margin: 0;}
   .lbr3 .p2 {padding: 0%; margin-top: 10px; margin-bottom: 0px; text-align: center;}
-  .lbr3 input {margin-left: auto; margin-right: auto; padding: 0; width:400px;}
+  .lbr3 input {margin-left: auto; margin-right: auto; padding-left: 10; width:300px; background-color: white; border: none;}
   .lbr3 .p1{margin: 0; padding: 0; margin-bottom: 10px; margin-top: 30px; text-align: center;}
 }
 @media (max-width: 800px) {
-  .ngo .ngo-left {
-    font-siz: 10px;
+  .ngo {
+    display: flex; flex-direction: column; margin:0; align-items: center;}
   }
+  .ngo-left {
+    flex:1; font-siz: 8px; text-align: center;
+  }
+.ngo-right {flex:1;}
 }
